@@ -1,0 +1,37 @@
+{
+  "ignition": {
+    "version": "3.2.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "passwordHash": "$2a$10$Q25fkPZrlDewzy.hTAbRK.ahH9ixCxrqd9eIPh2MZ8jVZwwEesHoS",
+        "sshAuthorizedKeys": [
+          "AAAAB3NzaC1yc2EAAAADAQABAAAAgQCjwwU30NkNChjHKm32bO+d65I5nfak2c1bCx+QvIja9xbW+5EWW9cMA9O3lkZVWJnLJSmZARZ44W8pT2hXvCAyiptpS7ObMrkxc5kGqnHLzuXysy4JVj7XKhAXmWwDJGSQyyH78GRruBWry5P7UeBJ641VdJPUzsp0bP3KFvdVtQ=="
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "files": [
+      {
+        "path": "/etc/hostname",
+        "mode": 420,
+        "overwrite": true,
+        "contents": {
+          "source": "data:,coreos-docker1"
+        }
+      },
+      {
+        "path": "/etc/NetworkManager/conf.d/noauto.conf",
+        "mode": 420,
+        "overwrite": true,
+        "contents": {
+          "source": "data:text/plain;charset=utf-8;base64,W21haW5dCiMgRG8gbm90IGRvIGF1dG9tYXRpYyAoREhDUC9TTEFBQykgY29uZmlndXJhdGlvbiBvbiBldGhlcm5ldCBkZXZpY2VzCiMgd2l0aCBubyBvdGhlciBtYXRjaGluZyBjb25uZWN0aW9ucy4Kbm8tYXV0by1kZWZhdWx0PSoK",
+          "human_read": "[main]\n# Do not do automatic (DHCP/SLAAC) configuration on ethernet devices\n# with no other matching connections.\nno-auto-default=*\n"
+        }
+      }
+    ]
+  }
+}
