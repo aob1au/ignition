@@ -5,10 +5,10 @@
   "passwd": {
     "users": [
       {
-        "name": "core",
+        "name": "root",
         "passwordHash": "$2a$10$Q25fkPZrlDewzy.hTAbRK.ahH9ixCxrqd9eIPh2MZ8jVZwwEesHoS",
         "sshAuthorizedKeys": [
-          "AAAAB3NzaC1yc2EAAAADAQABAAAAgQCjwwU30NkNChjHKm32bO+d65I5nfak2c1bCx+QvIja9xbW+5EWW9cMA9O3lkZVWJnLJSmZARZ44W8pT2hXvCAyiptpS7ObMrkxc5kGqnHLzuXysy4JVj7XKhAXmWwDJGSQyyH78GRruBWry5P7UeBJ641VdJPUzsp0bP3KFvdVtQ=="
+          "AAAAB3NzaC1yc2EAAAADAQABAAAAgQCjwwU30NkNChjHKm32bO+d65I5nfak2c1"
         ]
       }
     ]
